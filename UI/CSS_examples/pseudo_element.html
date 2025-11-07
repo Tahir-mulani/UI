@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .test{
+            font-size: 22px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        /* .test p::before{
+                content:"🤖";
+                display:  block;
+        }
+        .test p::after{
+            content: "😁";
+            display: block;
+        } */
+         /*.test p::first-line{
+            color: red;
+         }
+         .test p::first-letter{
+            font-size: 78px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           
+         }*/
+         .test p::selection{
+            background-color: green;
+            color: white;
+         }
+         input[type="text"]{
+            padding: 6px;
+            width: 250px;
+         }
+         input::placeholder{
+            color: red;
+            text-align: right;
+         }
+         li::marker{
+            color: green;
+            font-size: 30px;
+         }
+    </style>
+</head>
+<body>
+    <div class="test">
+        <p>
+           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, ab amet. Voluptatum excepturi sed tenetur placeat ratione repellat iusto, atque aspernatur similique quia consequuntur perspiciatis doloribus non officia, quae obcaecati modi tempora ipsam. Dignissimos, fugit modi. Dolorum animi suscipit inventore.
+        </p>
+        <p>
+            In MySQL, a trigger is a special type of stored program that automatically executes (or "fires") in response to a specific event occurring on a table. These events are typically data manipulation language (DML) operations:
+        </p>
+    </div>
+    
+    <h1>Welcome to CSS</h1>
+    <input type="text" id="name" name="name" placeholder="Enter Your Name" autocomplete="off">
+    <ul>
+        <li>Tea</li>
+        <li>Coffee</li>
+        <li>Drinks</li>
+    </ul>
+</body>
+</html>

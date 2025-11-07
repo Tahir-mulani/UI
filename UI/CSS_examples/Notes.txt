@@ -1,0 +1,77 @@
+Introduction to CSS
+--------------------------------------------------
+What is meant by CSS?
+----------------------------
+1.The CSS is nothing but cascadeing Stylesheet Language.
+2.The CSS can be used for to make the web app more attractive as we know html element are ugly in nature.
+3.The CSS was developed by Hackon wium lie in 1996.
+4.The first version of css was published in 1996 and it was known as CSS first Level.
+5.The second version pf css was pulblished in 1998 and it was known as css level second.
+6.After 10yrs 2008. The CSS3 was published which has the more properties.
+
+Defination:
+------------------------------
+The CSS is the beauty parlour for the html elements.
+
+what is the advantage of css?
+------------------------------------------
+To make the website more attractive by using color combination,fonts,images.
+
+What is the basic syntax of css.
+----------------------------------------------
+Syntax:
+---------------------
+selector{
+    key:value;
+    key:value;
+}
+
+div
+class
+html tags-->h1,ul,li,img,p
+
+key:color;
+vlaue:red;
+
+how i can impplimet the css and tell me what are the different ways in which i can apply the css?
+--------------------------------------------------------------------------------------------------------
+There are different ways in which we can apply css with html file.
+1.inline CSS : apply on particular tag. (first priority)
+2.internal CSS : inside the html page in header section.
+3.external CSS :
+
+Note: Eery html elements/tags has all its won style.
+
+
+What is meant by selectors and what are the different types of selector?
+----------------------------------------------------------------------------
+
+favicon ---->image type --->png/jpg/.ico
+image size: 16*16.
+
+
+what is means css Selectors
+-----------------------------------------------------------
+Selectors means it is a targeting element/tag.
+
+what are the different Selectors present in CSS?
+-----------------------------------------------------------
+1. by using id  --> id indicated by using # symbol.
+2. by using class -->class indicated by(.).we can use multiple
+3.by using tag
+4.by using class with tag or tag with class
+5.pseudo elements:
+-----------------------------------------
+In html there are total 6 elemenets are present.
+This element can be used for to target specific word or specific line. 
+The pseudo element denoted by :: double colon
+  1. ::before
+  2. ::after
+  3. ::first-line
+  4. ::selection
+  5. ::first-letter
+  6. ::placeholder
+
+6.pseduo classes
+7.Universal Selectors ---> by using *(star)
+8.group selectors

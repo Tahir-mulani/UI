@@ -1,0 +1,110 @@
+UL(unordered list)
+-----------------------------------------
+1.In this tag there is no sequence present.
+
+OL(ordered list)
+-----------------------------------------
+1.In this tag there will be sequence of number as well as alphabet present.
+2.by default it has  value like number
+3.you can change the value by using attribute called as type.
+4.so the type attibute not depricated for ul tag.
+5.you can also pass the attribute like start and reversed.
+
+Table Tags
+---------------------------
+html3 and html4 
+1.table tag can be used for to fetch the data from database and display the data on table.
+2.table tag can be used for to create the website layout. this happen in html3 and html4 vesion.
+    when you use table for making the layout it is very difficult job to maintain the table as reponsive.
+3.table tag can be used for to create well aligned format.
+4.Int html5 when we use the table html5 provide the tag called <table></table>.
+5.the table tag has the following attribute which is not used in html5.
+        a)width
+        b)height
+        c)cellspacing
+        d)cellspadding
+        e)border
+
+6.Only alowed atribute are
+        span means merge.
+        a) rowspan:
+        rows are horizontal
+
+        b) colsspan
+        coloum are vertical
+
+7.The following has the basic tags which are used with table.
+        a) table
+        b) thead -->the group of table heading (th)  //support only colspan.
+        c) th --> table heading
+        d) tr --> table row
+        e) td -->table data
+        f) tbody -->table body --> create the group od tr.
+         in 2009 to 2012 --> html4 used.
+         in that year using table for design layout.
+
+505 error server error
+
+
+Image Mapping:(20-9-2025)
+------------------------------------------------------------
+Mapping is nothing but to create a small cilckable areas on image is called image mapping.
+In html we use two tags for image mapping.
+1. map
+2. area ---> inside this we use the attribute like shape(rectanular,poligon,circle),co-ords,href,target
+
+for coordinates //https://www.image-map.net/
+for short url //https://tinyurl.com/
+
+Form Tags(29-9-2025)
+--------------------------------------------------------------
+why we use form?
+-----------------------
+to collect the Data.
+
+basic syntax
+-----------------
+<form action="/save" method> 
+</form>
+
+
+what are the different atribute we pass for form tag?
+--------------------------------------------------------------
+1. action : end points / page link
+
+2. method : post = to save the data database -->201(status code).
+               get = to get the data from database/particular data.
+               put/patch = to update the data-->200((status code)).
+               delete = to delete the data from table.
+
+3. enc-type(encreption) : file Attach --> .pdf ,.text ,.jpg ,.png ,.mp3 // multipart-form-data(pass parameter)
+
+4. id : uniquikly identufy the html element.
+5. name : 
+
+http://localhost:7888/save ---> save is the end point.
+http://localhost:7888/edit ---> edit is the end point.
+
+css used with = inline,external,internal.
+href = hypertext reference.
+label indicates static information.
+
+Emp registration
+--------------------------------------
+background-color: rgb(183, 183, 220);
+Full name
+Email
+Mobile
+BirthDate
+Gender
+Skills
+Country
+State
+Address
+Upload Photo
+
+button --> Register --> icon + Text
+button --> Clear
+
+input type --> text,date,number,password,email,file
+CORS 

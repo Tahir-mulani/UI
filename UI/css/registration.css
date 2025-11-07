@@ -1,0 +1,49 @@
+.box{
+    border: 1px solid #000;
+    min-height: 100px;
+    padding: 7px;
+    margin: auto;
+    width: 48%;
+}
+body{
+    background-color: cadetblue;
+}
+table tr th td{
+    text-align: center;
+    margin: auto;
+   
+}
+table{
+     border: 1px solid red;
+    min-height: 10px;
+    width:100%;  
+    align-items: center;
+    border-collapse: collapse;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+#p1{
+    text-align: center;
+}
+h3{
+    font-weight: bold;
+    text-align: center;
+}
+input[type="text"],[type="email"],[type="time"],[type="date"]{
+    width: 60%;
+    padding: 8px;
+    height: 8px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#p{
+    text-align: center;
+}
+#end{
+    text-align: center;
+}

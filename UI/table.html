@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 80%;
+            min-height: 100px;
+            border: 3px solid #000;
+            margin: auto;
+            padding: 10px   ;
+        }
+        .box h1{
+            text-align: center;
+    
+
+        }
+        table,th,td{
+            border: 1px solid #000;
+            height: 30px; ;
+            text-align: center;
+            margin: auto;
+        }
+        table{
+                border-collapse: collapse;
+                
+                width: 900px;
+        }
+        th{
+            padding: 15px;
+            background-color: azure;
+            
+            font-weight: lighter ;
+        }
+        .Update{
+            width: 120px;
+            height: 30px;
+            padding: 12 px 12 px;
+            color: aliceblue;
+            border-radius: 4px;
+            background-color: red;
+            text-decoration: none;
+
+        }
+        .Delete{
+             width: 120px;
+            height: 30px;
+            padding: 10 px 10 px;
+            color: aliceblue;
+            border-radius: 4px;
+            background-color: blue;
+            text-decoration: none;
+
+
+        }
+        
+    </style>
+</head>
+<body>
+   
+    <div class="box">
+     <h1>Employee Info..🤖</h1>
+     <table>
+        <thead>
+            <th>Photo</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+            <th>Mobile</th>
+            <th>City</th>
+            <th>Salary</th>
+            <th>Actions</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="images/user1.jpg" width="60px" height="60px">
+                </td>
+                <td>Tahir Mulani</td>
+                <td>22</td>
+                <td>tahirmulani7447@gmail.com</td>
+                <td>7083560700</td>
+                <td>Pune</td>
+                <td>250000</td>
+                <td>
+                    <a href="#" class="Update">Update</a>
+                    <a href="#" class="Delete">Delete</a>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="images/user2.png" width="60px" height="60px"></td>
+                <td>Yadynesh Dhangar</td>
+                <td>23</td>
+                <td>Yadnyneshdhangar@gmail.com</td>
+                <td>7020286530</td>
+                <td>Pune</td>
+                <td>500000</td>
+                <td>
+                    <a href="#" class="Update">Update</a>
+                    <a href="#" class="Delete">Delete</a>
+                </td>
+            </tr>
+        </tbody>
+     </table>
+    </div>
+</body>
+</html>
