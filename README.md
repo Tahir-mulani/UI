@@ -35,7 +35,7 @@ Welcome to the UI learning repository. This workspace contains HTML, CSS, and JS
 ## Tips
 - Use browser dev tools to inspect DOM and CSS rules.
 - Copy pages into a sandbox file to test modifications safely.
-- Keep notes in [UI/notes.txt](UI/notes.txt) as you learn.
+- Keep notes in [UI/notes.txt](UI/notes.txt)  you learn.
 
 ## Contributing / Notes
 - Add new examples or improved styles into the corresponding folders.
