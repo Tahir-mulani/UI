@@ -29,8 +29,7 @@
 .form-data table,td,tr{
     border: 1px solid #000;
     padding: 5px;
-
-   
+}
  input[type="text"],[type="email"],[type="number"],[type="date"]{
     width: 60%;
     padding: 8px;
@@ -38,7 +37,8 @@
 }
 select{
     width: 60%;
-    padding :6px
+    padding :6px;   
+    cursor: pointer;
 }
 .label-right{
     text-align: right;
@@ -50,7 +50,7 @@ select{
     color: red;
 }
 #add{
-    width=60%;
+    width:60%;
     padding: 5px;
 }
 #btn_register{
@@ -65,6 +65,7 @@ select{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    cursor: pointer;
 }
 #btn_clear{
     width: 150px;
@@ -78,4 +79,11 @@ select{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    cursor: pointer;
+}
+
+#btn_register :hover{
+    background-color: aquamarine;
+    height: 100px;
+    width : 100px;
 }
